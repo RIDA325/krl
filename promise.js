@@ -12,15 +12,10 @@ let myPromise = new Promise(function(myResolve, myReject) {
       
     });
     
-    //fetch google.com
-    //fetch pictures from server
-    //fetch data from data api
-    //you will not wait untill each task alone is completed
-    //console.log(myPromise);
+    
     
 
-   //notify or do another task when promise is fullfilled
-   //use .then
+   
    myPromise.then((value)=>
   {
     console.log(value)
